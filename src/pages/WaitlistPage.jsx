@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/waitlist";
+const API = "https://sports-booking-platform-backend-1.onrender.com/api/waitlist";
 
 export default function WaitlistPage() {
   const [list, setList] = useState([]);
